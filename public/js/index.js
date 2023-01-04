@@ -1,9 +1,7 @@
 // vieille dame
 let vieille_dame = {
     age : 89,
-    nom : {
-        prénom : 'marie',
-        Nom_De_Famile : 'juste'
+    nom : {prénom : 'marie',Nom_De_Famile:'juste'
     },
     moral : 'mal',
     objet : 'cane',
