@@ -1,3 +1,4 @@
+// vieille dame
 let vieille_dame = {
     age : 89,
     nom : {
@@ -15,13 +16,14 @@ let vieille_dame = {
     }
 };
 
-
+// viel homme
 let viel_homme = {
     nom : "jean-louis",
     adoucir(){
         vieille_dame.moral = 'bien'
     }
 }
+// affichage avec adoucir
 vieille_dame.parler('monsieur jean-louis')
 viel_homme.adoucir()
 vieille_dame.parler('monsieur jean-louis')
